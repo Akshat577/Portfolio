@@ -1,4 +1,3 @@
-import css from "../assets/images/css.png";
 import figma from "../assets/images/figma.png";
 import git from "../assets/images/git.png";
 import html from "../assets/images/html.png";
@@ -6,7 +5,7 @@ import javascript from "../assets/images/javascript.png";
 import nodejs from "../assets/images/nodejs.png";
 import reactjs from "../assets/images/reactjs.png";
 import tailwind from "../assets/images/tailwind.png";
-import threejs from "../assets/images/threejs.svg";
+import css from '../assets/images/css.png'
 
 const education = [
   {
@@ -128,4 +127,4 @@ const technologies = [
   }
 ];
 
-export { education, experience, projects, coding, achievements, technologies };
+export { education, technologies };
