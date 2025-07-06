@@ -1,7 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
-import { education } from "../constants/Constants";
+import { education } from "../constants/constants";
 
 const EducationCard = ({ education }) => {
     return (

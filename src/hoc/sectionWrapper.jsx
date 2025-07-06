@@ -1,8 +1,6 @@
-
+import { motion } from "framer-motion";
 import React from "react";
 import { staggerContainer } from "../constants/motion";
-import { motion } from "framer-motion";
-
 
 const SectionWrapper = (Component, idName) => function HOC() {
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
