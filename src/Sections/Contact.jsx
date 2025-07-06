@@ -2,9 +2,8 @@ import React from "react";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { textVariant } from "../constants/motion";
 import { SectionWrapper } from "../hoc";
-
+import { textVariant } from "../constants/motion";
 
 function Contacts() {
     const formRef = useRef();

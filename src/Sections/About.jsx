@@ -1,13 +1,12 @@
 import React from 'react';
-import Akshat from '../assets/Akshat.JPG';
-
-import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
-import SectionWrapper from '../hoc/sectionWrapper';
-import { motion } from 'framer-motion';
-import { textVariant } from '../constants/motion';
-import AnimatedTitle from '../components/AnimatedTitle';
 import Education from '../components/Education';
-
+import { motion } from 'framer-motion';
+import { fallText, textVariant } from '../constants/motion';
+import { SectionWrapper } from '../hoc';
+import AnimatedTitle from '../components/AnimatedTitle';
+import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import Skills from '../components/Skills';
+import Akshat from '../assets/images/Akshat.JPG'
 const CustomBullet = ({ children }) => (
     <li className="text-textdark2 sm:text-xl sm:leading-9 px-0 py-2 sm:py-2 sm:px-20 flex items-start">
         <DoubleArrowIcon className="text-amber-200 mr-2 sm:mt-[6px]" size={10} />
@@ -29,10 +28,10 @@ const About = () => {
                 </motion.div>
                 <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex flex-col justify-center mt-4'>
                     <CustomBullet>
-                        Currently pursuing a Bachelor's degree in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Material Science</span> at Indian Institute Of Technology, Hyderabad.
+                        Currently pursuing a Bachelor's degree in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Material Science and Electrical Engineering</span> at Indian Institute Of Technology, Hyderabad.
                     </CustomBullet>
                     <CustomBullet>
-                        My proficiency lies in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Competitive Programming</span> and <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Web Development</span>.
+                        My proficiency lies in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Artificial Intelligence</span> and <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Web Development</span>.
                     </CustomBullet>
             
                     <CustomBullet>
@@ -45,11 +44,11 @@ const About = () => {
             </div>
             <motion.div variants={textVariant(1)} className='sm:p-12 z-20'>
                 <motion.h1 className='text-textdark1 text-5xl sm:text-6xl font-semibold text-center p-0 sm:p-8'>Education</motion.h1>
-                <Education/>
+                <Education />
             </motion.div>
             <motion.div variants={textVariant(1)} className='sm:p-12 z-20'>
                 <motion.h1 className='text-textdark1 text-5xl sm:text-6xl font-semibold text-center p-0 sm:p-8'>Skills</motion.h1>
-               
+                <Skills />
             </motion.div>
         </motion.div>
     );

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import SectionWrapper from '../hoc/sectionWrapper';
+import Navbar from '../components/Navbar';
+import { SectionWrapper } from '../hoc';
 import { motion } from 'framer-motion';
 import { textVariant } from '../constants/motion';
 
