@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import { technologies } from '../constants/constants';
+import { technologies } from '../constants/Constants';
 import { fadeIn, textVariant } from '../constants/motion';
 // import { SectionWrapper } from "../hoc";
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { textVariant } from '../constants/motion';
 import { SectionWrapper } from '../hoc';
-import { experience } from '../constants/constants';
+import { experience } from '../constants/Constants';
 import HighlightedText from '../components/Highlight';
 
 const ExpCard = ({ exp, index }) => {

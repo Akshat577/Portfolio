@@ -1,6 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
-import { projects } from '../constants/constants';
+import { projects } from '../constants/Constants';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../constants/motion';

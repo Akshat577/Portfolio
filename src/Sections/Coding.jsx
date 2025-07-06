@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { textVariant } from '../constants/motion';
 import { SectionWrapper } from '../hoc';
-import { coding } from '../constants/constants';
+import { coding } from '../constants/Constants';
 import HighlightedText from '../components/Highlight';
 
 const CodeCard = ({ exp, index }) => {
