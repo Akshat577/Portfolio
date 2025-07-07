@@ -53,7 +53,7 @@ const Footer = () => {
                         <span className="flex font-bold uppercase text-textlight pb-1">Resources</span>
                         <div className='w-full h-[1px] bg-textlight mx-auto mb-3'></div>
                         <div className="flex flex-col gap-y-2">
-                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://pranavraov1.netlify.app" target='_blank'>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://akshat577.netlify.app/" target='_blank'>
                                 <ArrowRightIcon /><span className="pr-[10px] link1">Portoflio V1</span>
                             </a>
                         </div>
